@@ -1,0 +1,43 @@
+.section {
+    height: 100vh;
+}
+
+.home-img {
+    height: 100vh;
+    background-image: url(../../Assets/images/background-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.home-text {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 3rem;
+    text-align: start;
+    margin-left: 7%;
+}
+
+.home-quote {
+    font-style: italic;
+}
+
+.home-writer {
+    text-align: end;
+    margin-right: 7%;
+}
+
